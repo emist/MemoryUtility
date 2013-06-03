@@ -11,7 +11,7 @@ BYTE HexOperations::str2byte(string byte)
 	int end_byte = 0;
 	ss << std::hex << byte;
 	ss >> end_byte;
-	Logger::Logit("HexOperations::str2byte", "Byte=" + std::to_string(static_cast<long long>(end_byte)));
+	//Logger::Logit("HexOperations::str2byte", "Byte=" + std::to_string(static_cast<long long>(end_byte)));
 	return end_byte;
 }
 
